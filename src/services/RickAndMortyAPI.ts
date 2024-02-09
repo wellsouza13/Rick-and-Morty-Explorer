@@ -1,6 +1,6 @@
 import axios from "axios";
-import { CharactersResponse } from "../components/CharactersContainer/interface";
 import { QueryFunctionContext } from "react-query";
+import { CharactersResponse } from "../types/CharactersContainerProps";
 
 export async function fetchCharacters(
   context: QueryFunctionContext
